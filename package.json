@@ -1,0 +1,10 @@
+{
+  "name": "softenskill",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A cinematic milestone reel — zero dependencies, zero build step.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "SEE LICENSE IN LICENSE"
+}

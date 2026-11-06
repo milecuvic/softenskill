@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>softenskill — a film of growth</title>
+    <meta
+      name="description"
+      content="A cinematic milestone reel. Seven scenes, one workspace, no build step."
+    />
+    <meta name="color-scheme" content="dark" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="glow" aria-hidden="true"></div>
+
+    <header class="brand">
+      <span class="brand__mark" aria-hidden="true"></span>
+      <span class="brand__name">softenskill</span>
+      <span class="brand__tag">a film of growth</span>
+    </header>
+
+    <div class="timeline" id="timeline" aria-hidden="true"></div>
+
+    <main class="stage" id="scenes"></main>
+
+    <footer class="deck">
+      <div class="deck__left">
+        <button class="btn" id="prev" type="button" aria-label="Previous scene">←</button>
+        <button
+          class="btn"
+          id="play"
+          type="button"
+          aria-label="Play film"
+          aria-pressed="false"
+        >
+          ▶
+        </button>
+        <button class="btn" id="next" type="button" aria-label="Next scene">→</button>
+      </div>
+      <p class="deck__count" id="count">01 / 07</p>
+      <div class="deck__right">
+        <button class="btn btn--ghost" id="replay" type="button">replay</button>
+      </div>
+    </footer>
+
+    <div class="intro" id="intro">
+      <p class="intro__kicker">now showing</p>
+      <h1 class="intro__title">softenskill</h1>
+      <p class="intro__sub">
+        Seven scenes. One workspace. Every milestone gets a frame.
+      </p>
+      <button class="intro__btn" id="enter" type="button">▶ begin the film</button>
+      <p class="intro__hint">or press <kbd>space</kbd></p>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
